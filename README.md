@@ -1,9 +1,10 @@
 # Speech to Text with AWS Transcribe
 
-#Project Description:
+# Project Description:
+
 The project is a Django web application designed to transcribe video files uploaded by users. It allows users to upload video files, which are then sent to an AWS Transcribe service for transcription. Once the transcription is completed, the text content of the transcription is displayed to the user, and they have the option to download the transcribed text as a file.
 
-#Tech Stack:
+# Tech Stack:
 Django: Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. It provides built-in features for authentication, URL routing, template rendering, and more, making it ideal for developing web applications.
 
 Needed Dependencies:
@@ -16,7 +17,7 @@ Needed Dependencies:
     sudo python3 -m pip install boto3
     pip install django
 
-#AWS (Amazon Web Services):
+# AWS (Amazon Web Services):
 
 S3 (Simple Storage Service): Used to store the uploaded video files and transcribed text files.
 Transcribe: Used for converting speech to text. It transcribes the uploaded video files and provides the text output.
